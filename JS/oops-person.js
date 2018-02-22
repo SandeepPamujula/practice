@@ -25,6 +25,7 @@ ninja.dance  = function (){
         console.log(this.name+ " is fighting... ");
         console.log("prototype "+this.prototype);
         console.log("__proto "+ this.__proto);
+        console.log(this.__proto__);
 //        return this._super();
 }
 ninja.dance();
